@@ -1,7 +1,4 @@
-# Define display_board that accepts a board and prints
-# out the current state.
-
-board = [ "   ","   ","   ","   ","   ","   ","   ","   ","   " ]
+board = Array.new(9, " ")
 
 
 def display_board(the_board)
